@@ -1,0 +1,17 @@
+{
+  "name": "bot_cotacao_de_acao",
+  "version": "1.0.0",
+  "description": "bot para cotação de ação em tempo real",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "bot",
+    "javascript",
+    "puppeteer",
+    "automação"
+  ],
+  "author": "Wesley Araújo",
+  "license": "ISC"
+}
