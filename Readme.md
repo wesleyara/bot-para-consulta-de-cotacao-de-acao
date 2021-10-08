@@ -2,7 +2,7 @@
 
 ## Motivação
 
-Na busca por novos aprendizados na área de programação, fui em busca de usar o Node.js para automatizar algumas coisas usando JavaScript, me deparei então com a biblioteca Puppeteer (Github: https://github.com/puppeteer/puppeteer), onde vi a oportunidade de conseguir alcançar meu objetivo.
+Na busca por novos aprendizados na área de programação, fui em busca de usar o Node.js para automatizar algumas coisas usando JavaScript, me deparei então com a biblioteca Puppeteer (Github: https://github.com/puppeteer/puppeteer), onde vi a oportunidade de conseguir alcançar meu objetivo de estudo.
 
 ## O que ele faz?
 
@@ -10,7 +10,7 @@ Esse bot utiliza da biblioteca Puppeteer para acessar um site a partir de um nav
 
 ## Instalação:
 
-Ao copiar o repositório, tem que ir no terminal e digitar os seguintes comandos para realizar a instalação:
+Ao copiar o repositório, tem que ir no terminal do VS Code com a pasta aberta e digitar os seguintes comandos para realizar a instalação:
 
 `npm install puppeteer`
 
