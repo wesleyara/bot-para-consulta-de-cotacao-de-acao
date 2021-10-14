@@ -1,4 +1,4 @@
-# Bot em Puppeteer para ver cotação de ação.
+# CodeBot: o bot em Puppeteer para ver cotação de ação.
 
 ## Motivação
 

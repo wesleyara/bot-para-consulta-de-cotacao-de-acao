@@ -1,9 +1,9 @@
-console.log("Este robô pode encontrar a cotação de qualquer ação.");
+console.log("Eu sou o CodeBot e posso encontrar a cotação de qualquer ação!");
 
 const puppeteer = require('puppeteer');
 var readlineSync = require('readline-sync');
 
-async function roboCotação() {
+async function codeBot() {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
   const cotação = readlineSync.question(`Insira a acao que deseja ver a cotacao: `);
@@ -19,4 +19,4 @@ async function roboCotação() {
   await browser.close();
 }
 
-roboCotação();
+codeBot();
