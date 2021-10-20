@@ -42,15 +42,25 @@ codeBot();
   const cota = await page.evaluate(() => {
     return document.querySelectorAll(".value")[0].textContent
   });
-
+  
   const roe = await page.evaluate(() => {
     return document.querySelectorAll(".value.d-block.lh-4.fs-4.fw-700")[24].textContent
+  });
+  
+  const patrimonioLiquido = await page.evaluate(() => {
+    return document.querySelectorAll(".value")[86].textContent
+  });
+
+  const dividaLiquida = await page.evaluate(() => {
+    return document.querySelectorAll(".value")[91].textContent
   });
 
   var cot = cotação.toUpperCase();
   
   console.log(`A cotação atual de ${cot} é de R$${cota}`);
   console.log(`O ROE da empresa é de ${roe}`)
+  console.log(`O Patrimônio Líquido é de R$${patrimonioLiquido}`)
+  console.log(`A Dívida Líquida é de R$${dividaLiquida}`)
   await browser.close();
 }
 
